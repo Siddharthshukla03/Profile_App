@@ -44,6 +44,13 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ProfileAppTheme {
+                ProfileApp(
+                    name = "Siddharth",
+                    title = "Developer",
+                    contact = "contact",
+                    socialMedia = "socialmedia",
+                    email = "email"
+                )
 
             }
         }
